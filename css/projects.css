@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.5rem;
+}
+
+.project{
+    margin-top: 100px;
+}
+
+.project-img{
+    height: 50vh;
+    object-fit: cover;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.project-deatils{
+    padding: 0 20px;
+}
+
+.project p{
+    font-size: 13px;
+}
