@@ -520,15 +520,15 @@ form button span:nth-child(4) {
 
 /* ------------------ Project section css ------------------ */
 
-#Work {
+#Achivements {
   text-align: center;
   background-color: #131313;
   color: white;
 }
-#Work img {
+#Achivements img {
   width: 100%;
 }
-#Work h1 {
+#Achivements h1 {
   margin-top: 50px;
   font-family: "Ailerons";
   font-weight: 600;
@@ -538,7 +538,7 @@ form button span:nth-child(4) {
   text-align: center;
   
 }
-#Work h1 span {
+#Achivements h1 span {
   color: #ffff31;
 }
 .black-card-container {
@@ -673,7 +673,7 @@ form button span:nth-child(4) {
   .about-text {
     font-size: 4rem;
   }
-  #Work h1 {
+  #Achivements h1 {
     font-size: 4rem;
   }
   .contact-details {
@@ -708,7 +708,7 @@ form button span:nth-child(4) {
     margin-top: 25px;
     font-size: 3rem;
   }
-  #Work h1 {
+  #Achivements h1 {
     font-size: 3rem;
   }
   .gradient-circle {
