@@ -56,11 +56,11 @@ body {
 }
 
 /* ----------------- home section css------------------------- */
-#Home{
-margin-top:100px;
+#Home {
+  margin-top: 100px;
 }
 
-#Home .bg-img{
+#Home .bg-img {
   position: absolute;
   z-index: -10;
   display: flex;
@@ -69,7 +69,7 @@ margin-top:100px;
   align-items: center;
   animation: spots 100s infinite linear;
 }
-#Home .bg-img img{
+#Home .bg-img img {
   height: 100%;
   width: 100%;
 }
@@ -83,10 +83,16 @@ margin-top:100px;
   float: right;
   animation: img-animation 3s;
 }
-@keyframes img-animation{
-  0%{opacity: 0}
-  50%{opacity: 0}
-  100%{opacity: 1;}
+@keyframes img-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .social-profiles {
@@ -101,7 +107,7 @@ margin-top:100px;
   color: #303030;
 }
 
-.resume-btn{
+.resume-btn {
   animation: moveToDown 2s;
 }
 
@@ -142,33 +148,73 @@ margin-top:100px;
   animation: moveToRight 2s;
 }
 
-@keyframes moveToLeft{
-  0%{ opacity: 0;}
-  50%{ transform: translateX(-50px); opacity: 0;}
-  90%{ transform: translateX(20px);}
-  100%{ transform: translateX(0); opacity: 1;}
+@keyframes moveToLeft {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  90% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-@keyframes moveToRight{
-  0%{ opacity: 0;}
-  50%{ transform: translateX(50px); opacity: 0;}
-  90%{ transform: translateX(-20px);}
-  100%{ transform: translateX(0); opacity: 1;}
+@keyframes moveToRight {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  90% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-@keyframes moveToUp{
-  0%{ opacity: 0;}
-  50%{ transform: translateY(50px); opacity: 0;}
-  90%{ transform: translateY(-20px);}
-  100%{ transform: translateY(0); opacity: 1;}
+@keyframes moveToUp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  90% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-@keyframes moveToDown{
-  0%{ opacity: 0;}
-  50%{ transform: translateY(-50px); opacity: 0;}
-  90%{ transform: translateY(20px);}
-  100%{ transform: translateY(0); opacity: 1;}
+@keyframes moveToDown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  90% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-#Skill{
+#Skill {
   padding: 30px 0;
 }
 .skill-logo {
@@ -184,9 +230,9 @@ margin-top:100px;
 
 .skill-group {
   display: block;
-  border-radius: 25px;
   padding: 20px 20px 5px;
   margin: 20px auto;
+  box-shadow: 15px 15px 10px rgb(173, 173, 173) ;
 }
 
 .skill-group h6 {
@@ -247,7 +293,7 @@ margin-top:100px;
   display: flex;
   z-index: 15;
 }
-.ovr-hide{
+.ovr-hide {
   overflow: hidden;
 }
 .about-spots {
@@ -282,34 +328,33 @@ margin-top:100px;
   color: #f8e329;
 }
 
-.about-body{
-  font-family: 'Lato',sans-serif;
+.about-body {
+  font-family: "Lato", sans-serif;
   line-height: 26px;
   color: #2e2e2e;
   display: flex;
   justify-content: center;
 }
 
-#contact{
-  background-color: #303030;
+#contact {
+  background-color: #0f0f0f;
   padding: 50px;
   margin-top: 50px;
 }
-#contact .black-border{
+#contact .black-border {
   background: linear-gradient(
     -90deg,
-    #303030 4%,
+    #0f0f0f 4%,
     #ff3c3c 15%,
     #e6ff04 30%,
     #27ff7a 45%,
     #29e2fa 65%,
     #803cff 85%,
-    #303030 96%
+    #0f0f0f 96%
   );
 }
 
-
-form{
+form {
   width: 80%;
   margin: auto;
 }
@@ -320,14 +365,14 @@ form.contact-form {
 form.contact-form .form-group {
   margin-bottom: 30px;
 }
-form.contact-form .form-group .form-control{
+form.contact-form .form-group .form-control {
   background-color: transparent;
   border: 0;
-  color:#d3d3d3;
+  color: #d3d3d3;
   border-bottom: 1px solid yellow;
 }
 
-form button{
+form button {
   display: flex;
   margin: auto;
   margin-bottom: 30px;
@@ -339,77 +384,93 @@ form button{
   position: relative;
   overflow: hidden;
 }
-form button:hover{
+form button:hover {
   background-color: #e8ff1b;
   color: #000000;
   font-weight: 600;
-  box-shadow: 0 0 5px rgb(255, 255, 42),0 0 50px yellow,0 0 75px yellow,0 0 200px rgb(255, 255, 100);
+  box-shadow: 0 0 5px rgb(255, 255, 42), 0 0 50px yellow, 0 0 75px yellow,
+    0 0 200px rgb(255, 255, 100);
 }
 
-@keyframes animate1{
-  from{left: -100%}
-  to{left: 100%}
+@keyframes animate1 {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
 }
-form button span:nth-child(1){
-position: absolute;
-top:0;
-width: 100%;
-height: 2px;
-background: linear-gradient(90deg, transparent, yellow);
-animation: animate1 1s infinite ;
-animation-delay: .2s;
-}
-
-@keyframes animate2{
-  from{left: 100%}
-  to{left: -100%}
-}
-form button span:nth-child(2){
-position: absolute;
-bottom:0;
-width: 100%;
-height: 2px;
-background: linear-gradient(-90deg, transparent, yellow);
-animation: animate2 1s infinite ;
-animation-delay: .75s;
+form button span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, yellow);
+  animation: animate1 1s infinite;
+  animation-delay: 0.2s;
 }
 
-@keyframes animate3{
-  from{top: -100%}
-  to{top: 100%}
+@keyframes animate2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
 }
-form button span:nth-child(3){
-position: absolute;
-right:0;
-height: 100%;
-width: 2px;
-background: linear-gradient(180deg, transparent, yellow);
-animation: animate3 1s infinite ;
-animation-delay: .5s;
-}
-
-@keyframes animate4{
-  from{bottom: -100%}
-  to{bottom: 100%}
-}
-form button span:nth-child(4){
-position: absolute;
-left:0;
-height: 100%;
-width: 2px;
-background: linear-gradient(360deg, transparent, yellow);
-animation: animate4 1s infinite ;
-animation-delay: 1s;
+form button span:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(-90deg, transparent, yellow);
+  animation: animate2 1s infinite;
+  animation-delay: 0.75s;
 }
 
+@keyframes animate3 {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 100%;
+  }
+}
+form button span:nth-child(3) {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(180deg, transparent, yellow);
+  animation: animate3 1s infinite;
+  animation-delay: 0.5s;
+}
 
-#contact .about-text{
+@keyframes animate4 {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+form button span:nth-child(4) {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 2px;
+  background: linear-gradient(360deg, transparent, yellow);
+  animation: animate4 1s infinite;
+  animation-delay: 1s;
+}
+
+#contact .about-text {
   color: white;
   font-size: 3rem;
   margin-top: 60px;
 }
-.contact-details{
-  height: calc(100% + 100px) ;
+.contact-details {
+  height: calc(100% + 100px);
   max-width: 450px;
   width: auto;
   background-color: #6f1aa8;
@@ -420,30 +481,33 @@ animation-delay: 1s;
   flex-direction: column;
   justify-content: center;
 }
-.contact-heading{
+.contact-heading {
   color: white;
+  font-family: 'Dosis', sans-serif;
   font-weight: 500;
   font-size: 18px;
   padding: 10px 20px;
 }
-.contact-text{
-  color: white;
+.contact-text {
+  color: #d4d4d4;
+  letter-spacing: 1px;
+  font-family: 'Dosis', sans-serif;
   font-weight: 500;
   font-size: 13px;
   padding-left: 20px;
   padding-bottom: 15px;
 }
-.vertical-line{
+.vertical-line {
   position: absolute;
   height: 40%;
   width: 2px;
   background-color: #000000;
 }
-.social-icons{
+.social-icons {
   margin: 20px auto;
 }
 
-.social-icons .fab{
+.social-icons .fab {
   color: white;
   margin: 5px;
   font-size: 2rem;
@@ -454,6 +518,128 @@ animation-delay: 1s;
   color: #14ffe0;
 }
 
+/* ------------------ Project section css ------------------ */
+
+#Work {
+  text-align: center;
+  background-color: #131313;
+  color: white;
+}
+#Work img {
+  width: 100%;
+}
+#Work h1 {
+  margin-top: 50px;
+  font-family: "Ailerons";
+  font-weight: 600;
+  font-size: 5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+#Work h1 span {
+  color: #ffff31;
+}
+.black-card-container {
+  width: 80vw;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.black-card-box {
+  margin: 40px 4%;
+  line-height: 1.5rem;
+  height: 420px;
+  position: relative;
+  padding: 5px;
+  box-shadow: 15px 15px 10px rgb(0, 0, 0);
+}
+
+.black-card-box h2 {
+  font-size: 8em;
+  top: 35px;
+  right: 10px;
+  position: absolute;
+  opacity: 0.2;
+}
+.black-card-box:hover h2 {
+  top: 0px;
+}
+.black-card-box h3 {
+  font-family: 'Dosis', sans-serif;
+  top: 175px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  font-weight: 700;
+}
+.black-card-box p {
+  padding-top: 210px;
+  font-size: 0.9em;
+  color: #dadada;
+  font-family: 'Open Sans', sans-serif;
+}
+.black-card-box a{
+  text-decoration: none;
+  color: white;
+}
+
+.black-card-box a.button {
+  border: 1px solid #03ffff;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  padding: 8px 10px;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  display: block;
+}
+
+.black-card-box span:nth-child(1) {
+  height: 3px;
+  width: 80%;
+  background: linear-gradient(
+    90deg,
+    #ff3c3c 15%,
+    #e6ff04 30%,
+    #27ff7a 45%,
+    #29e2fa 65%,
+    #803cff 85%,
+    transparent 96%
+  );
+  position: absolute;
+  left: 0;
+}
+.black-card-box span:nth-child(2) {
+  height: 50%;
+  width: 3px;
+  background: linear-gradient(
+    180deg,
+    #ff3c3c 15%,
+    #e6ff04 30%,
+    #27ff7a 45%,
+    #29e2fa 65%,
+    #803cff 85%,
+    transparent 96%
+  );
+  position: absolute;
+  left: 0;
+}
+
+/* ----------------------- @media ---------------------------- */
 
 @media screen and (max-width: 768px) {
   .gyanendra-img {
@@ -461,9 +647,9 @@ animation-delay: 1s;
     padding: 50px 10% 0;
     float: none;
   }
-  #Home{
-    margin-top:60px;
-    }
+  #Home {
+    margin-top: 60px;
+  }
   .navbar {
     background: white;
   }
@@ -476,7 +662,7 @@ animation-delay: 1s;
   }
   .about-img {
     width: 220px;
-    
+
     margin-top: 50px;
   }
   .about-spots {
@@ -487,26 +673,28 @@ animation-delay: 1s;
   .about-text {
     font-size: 4rem;
   }
-  .contact-details{
+  #Work h1 {
+    font-size: 4rem;
+  }
+  .contact-details {
     height: 100%;
     width: auto;
     margin: 0;
     max-width: 1000px;
   }
-  #contact{
+  #contact {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
-  
   .gradient-circle {
     width: 220px;
     margin-top: -20px;
   }
-  #Home{
-    margin-top:100px;
-    }
+  #Home {
+    margin-top: 100px;
+  }
   .about-img {
     width: 180px;
     margin-top: 55px;
@@ -520,15 +708,17 @@ animation-delay: 1s;
     margin-top: 25px;
     font-size: 3rem;
   }
+  #Work h1 {
+    font-size: 3rem;
+  }
   .gradient-circle {
     margin-top: 35px;
   }
-  #contact{
+  #contact {
     padding: 0;
     overflow: hidden;
   }
-  .social-icons .fab{
+  .social-icons .fab {
     font-size: 1.5rem;
   }
 }
-
